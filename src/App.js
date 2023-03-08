@@ -1,24 +1,28 @@
 import logo from './logo.svg';
+import Photo from "./Components/Photo";
+// import MyImg from "./chinazes.jpg"
+// import {Button} from "react-bootstrap";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import Kategorii from './Components/Kategorii';
+import Menuright from './Components/Menuright';
+import Main from './Components/Main';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<>
+
+  <div className='gg1'>
+    <Main/>
+    <div>
+      <Kategorii/>
+      {/*<div className="chinazes">{MyImg}</div>*/}
+    <Photo/>
+      {/*<Button variant="primary">Button</Button>*/}
     </div>
+    <Menuright/>
+
+  </div>
+</>
   );
 }
 

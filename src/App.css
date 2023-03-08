@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +37,96 @@
     transform: rotate(360deg);
   }
 }
+.gomno{
+  color: green;
+  font-size:100px;
+}
+.gomno1{
+  color: blue;
+  font-size:100px;
+}
+.gomno2{
+  color: yellow;
+  font-size:100px;
+}
+.chmo{
+  border: 2px;
+
+}
+.table1{
+  border-color: red;
+}
+.tbl{
+  border: 2px dotted blue ;
+}
+.menu{
+  padding: 10px;
+  width: 250px;
+  height: 600px;
+  /*background-color: red;*/
+}
+.menu1{
+  padding: 20px;
+  font-size: 30px;
+  color:white;
+}
+.kategorii{
+  display: flex;
+  justify-content: center;
+  width: 1400px;
+  color: white;
+
+}
+
+.kategorii1{
+  font-size: 30px;
+
+
+}
+
+.Menuright{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  width: 200px;
+  height: 600px;
+  /*background-color: red;*/
+}
+.Menuright1{
+  padding: 10px;
+  font-size: 30px;
+  color:white;
+}
+.gg1{
+  display: flex;
+}
+.jj{
+  padding: 10px;
+}
+.Photo1{
+  display: flex;
+  justify-content: center;
+  /*width: 1000px;*/
+  /*height: 1000px;*/
+}
+.lox{
+  display: flex;
+  justify-content: center;
+
+}
+.lox1{
+  width: 200px;
+  height: 100px;
+  font-size: 40px;
+}
+.photo{
+  width: 1300px;
+  height: 850px;
+  padding: 50px;
+}
+/*.cart{*/
+/*  width: 100px;*/
+/*  height: 100px;*/
+/*  font-size: 100px;*/
+/*  color: white;*/
+/*}*/
