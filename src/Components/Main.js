@@ -1,8 +1,15 @@
+import {Link} from "react-router-dom";
+import {PAGE1, PAGE2} from "../Helper/Routers/Routers";
+
 function Main(){
     return  <>
         <div className="menu">
+            <Link to={PAGE1}>
             <div className="menu1">Новости</div>
-            <div className="menu1">Фотографии</div>
+        </Link>
+            <Link to={PAGE2}>
+                <div className="menu1">Фотографии</div>
+            </Link>
             <div className="menu1">Видео</div>
             <div className="menu1">Друзья</div>
             <div className="menu1">Мои подписки</div>

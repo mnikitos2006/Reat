@@ -37,6 +37,10 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: #241f1f;
+  color: white;
+}
 .gomno{
   color: green;
   font-size:100px;
@@ -123,6 +127,9 @@
   width: 1300px;
   height: 850px;
   padding: 50px;
+}
+a{
+  text-decoration: none;
 }
 /*.cart{*/
 /*  width: 100px;*/
