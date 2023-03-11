@@ -69,10 +69,15 @@ body{
   height: 600px;
   /*background-color: red;*/
 }
-.menu1{
-  padding: 20px;
+.menu1 a{
+
   font-size: 30px;
   color:white;
+  /*position: absolute;*/
+}
+.menu1{
+  padding: 20px;
+
 }
 .kategorii{
   display: flex;
@@ -80,24 +85,44 @@ body{
   width: 1400px;
   color: white;
 
+
+
 }
 
 .kategorii1{
   font-size: 30px;
+  display: flex;
+  justify-content: center;
+  width: 1400px;
 
 
+
+}
+.kategorii2{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+/*div a{*/
+/*  */
+/*}*/
+.chmo{
+  /*width: 320px;*/
+  /*margin-left: 300px;*/
+  /*position: absolute;*/
 }
 
 .Menuright{
   display: flex;
   justify-content: flex-end;
-  padding: 10px;
+  /*padding: 20px;*/
   width: 200px;
   height: 600px;
   /*background-color: red;*/
 }
 .Menuright1{
-  padding: 10px;
+  padding: 20px;
   font-size: 30px;
   color:white;
 }
@@ -130,7 +155,47 @@ body{
 }
 a{
   text-decoration: none;
+  /*display: inline-block;*/
+  /*position: relative;*/
+
+  cursor: pointer;
+  cursor: auto;
+  -webkit-user-select: text;
+  -moz-select: text;
+  -ms-select: text;
+  user-select: text;
+  /*display: flex;*/
+  /*line-height: 1em;*/
+  /*overflow: hidden;*/
+  /*width: 180px;*/
+  /*font-size: 30px;*/
+
+
+
 }
+a:visited, a:active {
+  text-decoration: none;
+  color: white;
+
+
+}
+a:link {
+  text-decoration: none;
+  color: white;
+
+
+
+}
+.Link{
+
+
+
+}
+
+/*a:hover {*/
+/*  text-shadow: 4px 4px 4px #000;*/
+/*  color: white;*/
+/*}*/
 /*.cart{*/
 /*  width: 100px;*/
 /*  height: 100px;*/
