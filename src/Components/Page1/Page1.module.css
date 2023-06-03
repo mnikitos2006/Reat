@@ -1,0 +1,12 @@
+.glavnoe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sledpost{
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 400px;
+}
+

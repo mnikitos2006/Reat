@@ -13,7 +13,7 @@ import {
   MAIN,
   PAGE1,
   PAGE10,
-  PAGE11, PAGE12,
+  PAGE11, PAGE12, Page1Post2,
   PAGE2,
   PAGE3,
   PAGE4,
@@ -21,7 +21,7 @@ import {
   PAGE6,
   PAGE7,
   PAGE8,
-  PAGE9
+  PAGE9, Post2
 } from "./Helper/Routers/Routers";
 import {Page2} from "./Components/Page2/Page2";
 import {Page3} from "./Components/Page3/Page3";
@@ -62,6 +62,7 @@ function App() {
 
   {/*</div>*/}
   <Route path={PAGE1} element={<Page1/>}/>
+    <Route path={Page1Post2} element={<Page1Post2/>}/>
   <Route path={PAGE2} element={<Page2/>}/>
   <Route path={PAGE3} element={<Page3/>}/>
   <Route path={PAGE4} element={<Page4/>}/>

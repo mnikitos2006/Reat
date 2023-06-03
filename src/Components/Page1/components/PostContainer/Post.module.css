@@ -1,0 +1,41 @@
+.post{
+    width: 900px;
+    height: 900px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.zagolovok{
+    font-weight: bold;
+    font-size: 30px;
+}
+.photo img{
+
+    height: 500px;
+}
+.text{
+padding: 80px;
+}
+.knopki{
+
+}
+.like{
+font-size: 40px;
+}
+.dislike{
+font-size: 40px;
+}
+.postContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.knopkaSledPost{
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+    font-weight: bold;
+}

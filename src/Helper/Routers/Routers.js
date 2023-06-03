@@ -1,6 +1,9 @@
 export const MAIN="/";
 
 export const PAGE1="/page1";
+export const Page1Post2="/page1/Page1Post2";
+export const Post2="/Post2";
+
 
 export const PAGE2="/page2";
 
