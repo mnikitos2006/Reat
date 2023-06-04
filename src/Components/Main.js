@@ -21,7 +21,7 @@ function Main(){
 
 
 
-                <div className="menu1"><Link to={PAGE5}>Мои подписки </Link></div>
+                <div className="menu1"><Link to={PAGE5}>Сообщения </Link></div>
 
 
 

@@ -9,6 +9,7 @@ import Menuright from './Components/Menuright';
 import Main from './Components/Main';
 import {Route, Routes} from "react-router-dom";
 import {Page1} from "./Components/Page1/Page1";
+import data from "./InputData";
 import {
   MAIN,
   PAGE1,
@@ -34,7 +35,8 @@ import {Page9} from "./Components/Page9/Page9";
 import {Page10} from "./Components/Page10/Page10";
 import {Page11} from "./Components/Page11/Page11";
 import {Page12} from "./Components/Page12/Page12";
-function App() {
+function App(props) {
+
   return (
 <>
   <Routes>

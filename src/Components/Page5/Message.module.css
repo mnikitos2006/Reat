@@ -1,0 +1,13 @@
+.message{
+    width:100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.buttonMes{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: flex-end;
+}
